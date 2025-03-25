@@ -1,7 +1,7 @@
 <script setup>
 import { onMounted, ref } from 'vue'
 import BaseTitle from '@/components/BaseTitle.vue'
-import useAPI from '@/composables/useApi'
+import useAPI from '@/composables/useAPI'
 
 const { categories, getCategories } = useAPI()
 
